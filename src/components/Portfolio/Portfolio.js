@@ -3,6 +3,7 @@ import img from "../../images/project/ecommerce.png";
 import img1 from "../../images/project/hoc.png";
 import img2 from "../../images/project/musicapp.png";
 import img3 from "../../images/project/sidebar.png";
+import img4 from "../../images/project/download (2).png";
 const Portfolio = () => {
   return (
     <div className="mt-40  bg-base-200" id="portfolio">
@@ -63,15 +64,15 @@ const Portfolio = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Electronics Warehouse website</h2>
-            <label for="my-modal-3" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-2" class="btn modal-button btn-accent btn-sm">
               Details
             </label>
 
-            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+            <input type="checkbox" id="my-modal-2" class="modal-toggle" />
             <div class="modal">
               <div class="modal-box relative bg-black text-white">
                 <label
-                  for="my-modal-3"
+                  for="my-modal-2"
                   class="btn btn-sm btn-circle absolute right-2 top-2"
                 >
                   ✕
@@ -105,15 +106,15 @@ const Portfolio = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Wedding-venues website</h2>
-            <label for="my-modal-3" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-1" class="btn modal-button btn-accent btn-sm">
               Details
             </label>
 
-            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+            <input type="checkbox" id="my-modal-1" class="modal-toggle" />
             <div class="modal">
               <div class="modal-box relative bg-black text-white">
                 <label
-                  for="my-modal-3"
+                  for="my-modal-1"
                   class="btn btn-sm btn-circle absolute right-2 top-2"
                 >
                   ✕
@@ -143,15 +144,15 @@ const Portfolio = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">luxury-living website</h2>
-            <label for="my-modal-3" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-4" class="btn modal-button btn-accent btn-sm">
               Details
             </label>
 
-            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+            <input type="checkbox" id="my-modal-4" class="modal-toggle" />
             <div class="modal">
               <div class="modal-box relative bg-black text-white">
                 <label
-                  for="my-modal-3"
+                  for="my-modal-4"
                   class="btn btn-sm btn-circle absolute right-2 top-2"
                 >
                   ✕
@@ -181,14 +182,33 @@ const Portfolio = () => {
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
+              src={img4}
               alt="Shoes"
               class="rounded-xl"
             />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Upcoming....</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <label for="my-modal-5" class="btn modal-button btn-accent btn-sm">
+              Details
+            </label>
+
+            <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+            <div class="modal">
+              <div class="modal-box relative bg-black text-white">
+                <label
+                  for="my-modal-5"
+                  class="btn btn-sm btn-circle absolute right-2 top-2"
+                >
+                  ✕
+                </label>
+                <h3 class="text-lg font-bold">Upcoming Soon.....</h3>
+                <p class="py-4">
+                Upcoming Soon.....
+                </p>
+              </div>
+            </div>
+           
             <div className="flex items-center   ">
               <div class="card-actions">
                 <button class="btn btn-primary btn-sm">Client</button>
@@ -206,14 +226,32 @@ const Portfolio = () => {
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img
-              src="https://api.lorem.space/image/shoes?w=400&h=225"
+              src={img4}
               alt="Shoes"
               class="rounded-xl"
             />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Upcoming....</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <label for="my-modal-6" class="btn modal-button btn-accent btn-sm">
+              Details
+            </label>
+
+            <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+            <div class="modal">
+              <div class="modal-box relative bg-black text-white">
+                <label
+                  for="my-modal-6"
+                  class="btn btn-sm btn-circle absolute right-2 top-2"
+                >
+                  ✕
+                </label>
+                <h3 class="text-lg font-bold">Upcoming Soon.....</h3>
+                <p class="py-4">
+                Upcoming Soon.....
+                </p>
+              </div>
+            </div>
             <div className="flex items-center   ">
               <div class="card-actions">
                 <button class="btn btn-primary btn-sm">Client</button>
