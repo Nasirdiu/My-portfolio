@@ -1,10 +1,10 @@
 import React from "react";
-import nasir from "../../images/nasir.png";
+import nasir from "../../images/nasir3.png";
 import cv from "../../images/Md.Nasir Uddin Resume.pdf";
 const About = () => {
   return (
     <div className="mt-40 bg-neutral" id="about">
-      <h1 className="text-center text-3xl font-bold p-20 uppercase">About <span className="text-orange-500">Us</span></h1>
+      <h1 className="text-center text-3xl font-bold uppercase p-10">About <span className="text-orange-500">Us</span></h1>
       <div>
         <div class="hero min-h-screen">
           <div class="hero-content flex-col lg:flex-row mx-40 ">
