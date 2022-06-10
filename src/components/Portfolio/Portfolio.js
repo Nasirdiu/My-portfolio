@@ -7,8 +7,8 @@ import img4 from "../../images/project/download (2).png";
 const Portfolio = () => {
   return (
     <div className="mt-40  bg-base-200" id="portfolio">
-      <h1 className="text-center text-3xl font-bold text-orange-400 p-20">
-       My Recent Portfolio
+      <h1 className="text-center text-3xl font-bold  p-20 uppercase">
+       My Recent <span className="text-orange-400">Portfolio</span>
       </h1>
       <div data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"

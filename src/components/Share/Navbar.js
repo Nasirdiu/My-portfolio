@@ -53,7 +53,7 @@ const Navbar = () => {
             {menu}
           </ul>
         </div>
-        <h1 className="text-2xl font-bold">Portfolio</h1>
+        <h1 className="text-2xl font-bold">Portfo <span className="text-red-500">lio</span></h1>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menu}</ul>

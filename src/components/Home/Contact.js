@@ -27,7 +27,7 @@ const Contact = () => {
     }
     return (
         <div className='mt-40 bg-black'id='contacts'>
-            <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact Us</h1>
+            <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact <span className='text-red-500'>Us</span></h1>
             <div>
         <form  data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"

@@ -5,8 +5,8 @@ import icon3 from '../../images/icon/Back-End-Developer.webp'
 const Service = () => {
   return (
     <div  className="mt-10 bg-black" id="service">
-      <h1 className="text-center text-3xl font-bold text-orange-400">
-        My Service
+      <h1 className="text-center text-3xl font-bold text-orange-400 uppercase">
+        My <span className="text-red-500">Services</span>
       </h1>
       <div data-aos="zoom-in-up"
       data-aos-easing="ease-out-cubic"
