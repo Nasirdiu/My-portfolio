@@ -19,7 +19,7 @@ const Service = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Web Design</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good. They use design programs to create visual elements</p>
             
           </div>
         </div>
@@ -33,7 +33,7 @@ const Service = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">React js </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>React JS is a JavaScript library used in web development to build interactive elements on websites.</p>
             
           </div>
         </div>
@@ -47,7 +47,7 @@ const Service = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">backend developer</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Though requirements vary between jobs, back end developers will need to have a passing familiarity with, if not command of, several technical languages and programs. These essential back end developer skills include but are not limited to: Node js,Express js,Mongodb</p>
             
           </div>
         </div>

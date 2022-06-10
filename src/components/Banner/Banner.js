@@ -10,7 +10,7 @@ const Banner = () => {
           class="max-w-sm rounded-lg shadow-2xl" alt=""
         />
         <div>
-          <h1 class="text-5xl font-bold">Hi ! I Am</h1>
+          <h1 class="text-3xl font-bold">Hi ! <span className='text-orange-500'>I Am</span></h1>
           <h1 class="text-5xl font-bold banner-me">Nasir Uddin</h1>
           <p class="py-6">
           Frontend Developer with high level of experience in web designing and development, producting the Quality work.

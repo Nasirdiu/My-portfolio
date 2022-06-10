@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className="mt-40" id="portfolio">
       <h1 className="text-center text-3xl font-bold text-orange-400">
-        Recent Portfolio
+       My Recent Portfolio
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-20">
         {/* number 1  */}
