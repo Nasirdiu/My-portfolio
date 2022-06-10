@@ -25,7 +25,7 @@ const Banner = () => {
           <p class="py-6 text-white">
           Frontend Developer with high level of experience in web designing and development, producting the Quality work.
           </p>
-          <button class="btn btn-primary text-white" id='contact'>Hire Me</button>
+          <a href="https://www.linkedin.com/in/nasir369/" target='blank'><button class="btn btn-primary text-white" id='contact'>Hire Me</button></a>
         </div>
         
       </div>
