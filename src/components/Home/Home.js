@@ -7,7 +7,7 @@ import Contact from './Contact';
 
 const Home = () => {
     return (
-        <div className='bg-base-200'>
+        <div>
             <Banner></Banner>
             <About></About>
             <Service></Service>
