@@ -41,6 +41,7 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Full Name"
+            required
             name="First_name"
             class="input input-bordered input-md w-full max-w-xs mr-4 m-2"
           />
@@ -55,6 +56,7 @@ const Contact = () => {
           <textarea
             class="textarea textarea-bordered w-96 h-40"
             placeholder="Your Message"
+            required
             name="message"
           ></textarea>
           <div class="flex justify-center  p-10 ">

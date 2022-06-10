@@ -4,6 +4,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { toast } from 'react-toastify';
 import './Banner.css'
+import {FaInstagramSquare,FaLinkedin,FaTwitter,FaGithub,FaFacebook } from "react-icons/fa";
+
 const Banner = () => {
   const particlesInit = async (main) => {
     await loadFull(main);
@@ -25,8 +27,30 @@ const Banner = () => {
           <p class="py-6 text-white">
           Frontend Developer with high level of experience in web designing and development, producting the Quality work.
           </p>
-          <a href="https://www.linkedin.com/in/nasir369/" target='blank'><button class="btn btn-primary text-white" id='contact'>Hire Me</button></a>
+
+
+          <div className='text-white flex'>
+          <a className='w-10' href="https://github.com/nasirdiu" target='blank'><FaGithub/> </a>
+          
+          <a className='w-10' href="https://www.linkedin.com/in/nasir369/" target='blank'><FaLinkedin/> </a>
+          
+          <a className='w-10' href="https://www.facebook.com/Nasir369/" target='blank'><FaFacebook/> </a>
+          
+          <a className='w-10' href="https://www.instagram.com/nasiruddincse/" target='blank'><FaInstagramSquare/> </a>
+          
+          <a className='w-10' href="https://twitter.com/nasircse369" target='blank'>< FaTwitter/> </a>
+          
+          
+          
         </div>
+
+
+
+
+
+          <a href="https://www.linkedin.com/in/nasir369/" target='blank'><button class="btn btn-primary text-white mt-5" id='contact'>Hire Me</button></a>
+        </div>
+        
         
       </div>
        <Particles
