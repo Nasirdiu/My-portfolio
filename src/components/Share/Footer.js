@@ -51,7 +51,11 @@ const Footer = () => {
         <div>
           <p>Copyright © 2022 - All right reserved by Nasir 369</p>
         </div>
+        <div className="absolute right-0 " id="slider">
+        <a href="#slider" className="text-orange-400 "><button className="btn btn-accent">Go to Home</button> </a>
+        </div>
       </footer>
+      
     </div>
   );
 };

@@ -21,13 +21,13 @@ const Navbar = () => {
         <Link to="about" spy={true} smooth={true}>About</Link>
       </li>
       <li>
-        <Link to="contact" spy={true} smooth={true}>Contact</Link>
+        <Link to="contacts" spy={true} smooth={true}>Contact</Link>
       </li>
     </>
   );
 
   return (
-    <div class="navbar bg-black text-white  mx-auto">
+    <div class="navbar bg-black text-white  mx-auto" id="slider">
       <div class="navbar-start mx-48">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">

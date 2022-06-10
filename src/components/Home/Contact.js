@@ -26,7 +26,7 @@ const Contact = () => {
       event.target.reset();
     }
     return (
-        <div className='mt-40 bg-black'id='contact'>
+        <div className='mt-40 bg-black'id='contacts'>
             <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact Us</h1>
             <div>
         <form  data-aos="zoom-in-up"
