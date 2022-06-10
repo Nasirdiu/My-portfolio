@@ -16,11 +16,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/service" element={<Service></Service>}></Route>
+        {/* <Route path="/service" element={<Service></Service>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
         <Route path="/experience" element={<Experience></Experience>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
+        <Route path="/about" element={<About></About>}></Route> */}
       </Routes>
       <Footer></Footer>
     </div>

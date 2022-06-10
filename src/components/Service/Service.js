@@ -4,7 +4,7 @@ import icon1 from '../../images/icon/reactjs-web-development-service.png'
 import icon3 from '../../images/icon/Back-End-Developer.webp'
 const Service = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="service">
       <h1 className="text-center text-3xl font-bold text-orange-400">
         My Service
       </h1>

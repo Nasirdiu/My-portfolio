@@ -7,9 +7,9 @@ const About = () => {
       <h1 className="text-center text-3xl font-bold">About Me</h1>
       <div>
         <div class="hero min-h-screen">
-          <div class="hero-content flex-col lg:flex-row mx-40">
+          <div class="hero-content flex-col lg:flex-row mx-40 ">
             <img src={nasir} class="max-w-sm rounded-lg shadow-2xl" alt="" />
-            <div>
+            <div className="ml-40">
               <h1 class="text-5xl font-bold">I Am Nasir Uddin</h1>
               <p class="py-6">
                 I am Web developer . We are interested in learning new features
