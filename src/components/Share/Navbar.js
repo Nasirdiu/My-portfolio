@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from 'react-scroll/modules';
 
 const Navbar = () => {
  
@@ -9,19 +9,19 @@ const Navbar = () => {
         <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to="/service">Services</Link>
+        <Link to="service" spy={true} smooth={true}>Services</Link>
       </li>
       <li>
-        <Link to="/experience">Experience</Link>
+        <Link to="experience" spy={true} smooth={true}>Experience</Link>
       </li>
       <li>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="portfolio" spy={true} smooth={true}>Portfolio</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="about" spy={true} smooth={true}>About</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="contact" spy={true} smooth={true}>Contact</Link>
       </li>
     </>
   );

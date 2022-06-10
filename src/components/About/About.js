@@ -3,7 +3,7 @@ import nasir from "../../images/nasir.png";
 import cv from "../../images/Md.Nasir Uddin Resume.pdf";
 const About = () => {
   return (
-    <div className="mt-40 bg-neutral">
+    <div className="mt-40 bg-neutral" id="about">
       <h1 className="text-center text-3xl font-bold">About Me</h1>
       <div>
         <div class="hero min-h-screen">

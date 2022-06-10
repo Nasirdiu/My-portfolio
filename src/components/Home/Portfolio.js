@@ -5,7 +5,7 @@ import img2 from "../../images/project/musicapp.png";
 import img3 from "../../images/project/sidebar.png";
 const Portfolio = () => {
   return (
-    <div className="mt-40">
+    <div className="mt-40" id="portfolio">
       <h1 className="text-center text-3xl font-bold text-orange-400">
         Recent Portfolio
       </h1>
@@ -84,13 +84,13 @@ const Portfolio = () => {
 
             <div className="flex items-center   ">
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Client</button>
+               <a href="https://github.com/Nasirdiu/Assientment--11-client-site" target='blank'> <button class="btn btn-primary btn-sm">Client</button></a>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm m-4">Server</button>
+              <a href="https://github.com/Nasirdiu/Assientment--11-server-site" target='blank'> <button class="btn btn-primary btn-sm m-4">Server</button></a> 
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Live</button>
+               <a href="https://electronics-warehouse-56938.web.app/" target='blank'><button class="btn btn-primary btn-sm">Live</button></a> 
               </div>
             </div>
           </div>
@@ -123,14 +123,12 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="flex items-center   ">
-              <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Client</button>
+              <div class="card-actions ">
+                <a href="https://github.com/Nasirdiu/Assientment--3" target='blank'><button class="btn btn-primary btn-sm m-4">GitHub</button></a>
               </div>
+              
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm m-4">Server</button>
-              </div>
-              <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Live</button>
+               <a href="https://wedding-venues.netlify.app/" target='blank'> <button class="btn btn-primary btn-sm">Live</button></a>
               </div>
             </div>
           </div>
@@ -165,13 +163,13 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center   ">
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Client</button>
+               <a href="https://github.com/Nasirdiu/Project-dream-client" target='blank'><button class="btn btn-primary btn-sm">Client</button></a> 
               </div>
               <div class="card-actions">
                 <button class="btn btn-primary btn-sm m-4">Server</button>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Live</button>
+                <a href="https://luxury-living-4fa76.web.app/" target='blank'><button class="btn btn-primary btn-sm">Live</button></a>
               </div>
             </div>
           </div>
@@ -186,7 +184,7 @@ const Portfolio = () => {
             />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Upcoming....</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="flex items-center   ">
               <div class="card-actions">
@@ -211,7 +209,7 @@ const Portfolio = () => {
             />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Upcoming....</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="flex items-center   ">
               <div class="card-actions">

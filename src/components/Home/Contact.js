@@ -5,7 +5,7 @@ const Contact = () => {
         event.preventDefault()
     }
     return (
-        <div className='mt-40 bg-black '>
+        <div className='mt-40 bg-black'id='contact'>
             <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact</h1>
             <div>
         <form action="" onSubmit={handleSublit} className="text-center mt-16">
