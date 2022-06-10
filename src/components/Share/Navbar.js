@@ -27,16 +27,17 @@ const Navbar = () => {
   );
 
   return (
-    <div class="navbar bg-black text-white  mx-auto" id="slider">
-      <div class="navbar-start mx-48">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+    <div class="navbar  mx-auto" id="slider">
+      <div class="navbar-start mx-48 ">
+        <div class="dropdown ">
+          <label tabindex="0" class="btn btn-ghost lg:hidden ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
+              
             >
               <path
                 stroke-linecap="round"
@@ -53,9 +54,9 @@ const Navbar = () => {
             {menu}
           </ul>
         </div>
-        <h1 className="text-2xl font-bold">Portfo <span className="text-red-500">lio</span></h1>
+        <h1 className="text-2xl font-bold text-white">Portfo <span className="text-red-500">lio</span></h1>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class="navbar-center hidden lg:flex  text-white">
         <ul class="menu menu-horizontal p-0">{menu}</ul>
       </div>
       
