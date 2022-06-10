@@ -14,7 +14,10 @@ const Experience = () => {
       <h1 className="text-center text-3xl font-bold uppercase p-10">
         Exper<span className="text-orange-500">ience </span>
       </h1>
-      <div className=" grid grid-cols-3 lg:grid-cols-9 container mx-auto py-20 ">
+      <div data-aos="zoom-in-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+       className=" grid grid-cols-3 lg:grid-cols-9 container mx-auto py-20 ">
         <img className="w-24 mx-5 rounded" src={icon5} alt="" />
         <img className="w-24 mx-5 rounded" src={icon4} alt="" />
         <img className="w-24 mx-5 rounded" src={icon} alt="" />
