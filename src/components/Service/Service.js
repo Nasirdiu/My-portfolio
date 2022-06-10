@@ -4,11 +4,14 @@ import icon1 from '../../images/icon/reactjs-web-development-service.png'
 import icon3 from '../../images/icon/Back-End-Developer.webp'
 const Service = () => {
   return (
-    <div className="mt-10" id="service">
+    <div  className="mt-10 bg-black" id="service">
       <h1 className="text-center text-3xl font-bold text-orange-400">
         My Service
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-20">
+      <div data-aos="zoom-in-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+     className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-20">
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img

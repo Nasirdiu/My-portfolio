@@ -25,11 +25,11 @@ const Banner = () => {
           <p class="py-6 text-white">
           Frontend Developer with high level of experience in web designing and development, producting the Quality work.
           </p>
-          <button class="btn btn-accent text-white">Hire Me</button>
+          <button class="btn btn-primary text-white" id='contact'>Hire Me</button>
         </div>
         
       </div>
-      {/* <Particles
+       <Particles
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -83,7 +83,7 @@ const Banner = () => {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -105,7 +105,7 @@ const Banner = () => {
         },
         detectRetina: true,
       }}
-    /> */}
+    /> 
     </div>
     );
 };

@@ -27,9 +27,11 @@ const Contact = () => {
     }
     return (
         <div className='mt-40 bg-black'id='contact'>
-            <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact</h1>
+            <h1  className="text-center uppercase text-3xl font-bold text-orange-400">contact Us</h1>
             <div>
-        <form ref={form} onSubmit={handleSubmit} className="text-center mt-16">
+        <form  data-aos="zoom-in-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" ref={form} onSubmit={handleSubmit} className="text-center mt-16">
           <input
             type="text"
             placeholder="First Name"

@@ -5,13 +5,16 @@ import img2 from "../../images/project/musicapp.png";
 import img3 from "../../images/project/sidebar.png";
 const Portfolio = () => {
   return (
-    <div className="mt-40" id="portfolio">
-      <h1 className="text-center text-3xl font-bold text-orange-400">
+    <div className="mt-40  bg-base-200" id="portfolio">
+      <h1 className="text-center text-3xl font-bold text-orange-400 p-20">
        My Recent Portfolio
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-20">
+      <div data-aos="zoom-in-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-10">
         {/* number 1  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div  class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src={img3} alt="Shoes" class="rounded-xl" />
           </figure>
