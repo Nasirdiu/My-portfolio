@@ -14,7 +14,7 @@ const Banner = () => {
   };
     return (
         <div class="hero min-h-screen  bg-black" >
-      <div class="hero-content flex-col lg:flex-row-reverse  mx-40">
+      <div class="hero-content flex-col lg:flex-row-reverse">
         <img
           src={nasir}
           class="max-w-sm rounded-lg shadow-2xl" alt=""

@@ -7,7 +7,9 @@ const About = () => {
       <h1 className="text-center text-3xl font-bold uppercase p-10">About <span className="text-orange-500">Us</span></h1>
       <div>
         <div class="hero min-h-screen">
-          <div class="hero-content flex-col lg:flex-row mx-40 ">
+          <div data-aos="zoom-in-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" class="hero-content flex-col lg:flex-row ">
             <img src={nasir} class="max-w-sm rounded-lg shadow-2xl" alt="" />
             <div  data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"

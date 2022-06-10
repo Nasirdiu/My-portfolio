@@ -6,14 +6,14 @@ import img3 from "../../images/project/sidebar.png";
 import img4 from "../../images/project/download (2).png";
 const Portfolio = () => {
   return (
-    <div className="mt-40  bg-base-200" id="portfolio">
+    <div className="mt-40  bg-base-200 " id="portfolio">
       <h1 className="text-center text-3xl font-bold  p-20 uppercase">
        My Recent <span className="text-orange-400">Portfolio</span>
       </h1>
       <div data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-10">
+          className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 container mx-auto py-4">
         {/* number 1  */}
         <div  class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
@@ -59,7 +59,7 @@ const Portfolio = () => {
         </div>
         {/* number 2  */}
         <div class="card w-96 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
+          <figure class=" pt-10">
             <img src={img} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
