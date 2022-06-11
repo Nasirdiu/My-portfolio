@@ -60,7 +60,9 @@ const Contact = () => {
             name="message"
           ></textarea>
           <div class="flex justify-center  p-10 ">
-            <button class="btn btn-primary hover:bg-accent">Send Message</button>
+            <button class="btn btn-primary hover:bg-accent">
+              Send Message
+            </button>
           </div>
           <span className="text-white">
             {done && "Thanks for Contacting me"}

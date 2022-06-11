@@ -1,27 +1,36 @@
 import React from "react";
-import { Link } from 'react-scroll/modules';
-import TypeAnimation from 'react-type-animation';
+import { Link } from "react-scroll/modules";
+import TypeAnimation from "react-type-animation";
 const Navbar = () => {
- 
   const menu = (
     <>
       <li>
         <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to="service" spy={true} smooth={true}>Services</Link>
+        <Link to="service" spy={true} smooth={true}>
+          Services
+        </Link>
       </li>
       <li>
-        <Link to="experience" spy={true} smooth={true}>Experience</Link>
+        <Link to="experience" spy={true} smooth={true}>
+          Experience
+        </Link>
       </li>
       <li>
-        <Link to="portfolio" spy={true} smooth={true}>Portfolio</Link>
+        <Link to="portfolio" spy={true} smooth={true}>
+          Portfolio
+        </Link>
       </li>
       <li>
-        <Link to="about" spy={true} smooth={true}>About</Link>
+        <Link to="about" spy={true} smooth={true}>
+          About
+        </Link>
       </li>
       <li>
-        <Link to="contacts" spy={true} smooth={true}>Contact</Link>
+        <Link to="contacts" spy={true} smooth={true}>
+          Contact
+        </Link>
       </li>
     </>
   );
@@ -37,7 +46,6 @@ const Navbar = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              
             >
               <path
                 stroke-linecap="round"
@@ -55,19 +63,18 @@ const Navbar = () => {
           </ul>
         </div>
         <h1 className="text-2xl font-bold text-white">
-        <TypeAnimation className='animition'
-                  cursor={false}
-                  sequence={['Portfolio', 1000, '']}
-                  wrapper="h2"
-                  repeat={Infinity}
-                />
-        
+          <TypeAnimation
+            className="animition"
+            cursor={false}
+            sequence={["Portfolio", 1000, ""]}
+            wrapper="h2"
+            repeat={Infinity}
+          />
         </h1>
       </div>
       <div class="navbar-center hidden lg:flex  text-white">
         <ul class="menu menu-horizontal p-0">{menu}</ul>
       </div>
-      
     </div>
   );
 };
