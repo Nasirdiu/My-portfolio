@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
     <div >
       <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+         <a href=""> <Link to="about" spy={true} smooth={true}>About us</Link></a>
+         <a href=""> <Link to="service" spy={true} smooth={true}>Services</Link></a>
+         <a href=""> <Link to="portfolio" spy={true} smooth={true}>Portfolio</Link></a>
+         <a href=""> <Link to="contacts" spy={true} smooth={true}>contacts</Link></a>
+          
         </div>
         <div>
           <div class="grid grid-flow-col gap-4">
@@ -48,11 +50,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>
-          <p>Copyright © 2022 - All right reserved by Nasir 369</p>
+        <div className="text-xl">
+          <p>Copyright © 2022 - <span className="text-orange-500">All right reserved by Nasir 369</span></p>
         </div>
-        <div className="absolute right-0 " id="slider">
-        <a href="#slider" className="text-orange-400 "><button className="btn btn-accent">Go to Home</button> </a>
+        <div className="absolute right-0 mt-40"  id="slider">
+        <a href="#slider" className="text-orange-400 "><button className="btn btn-accent btn-sm">Go to Home</button> </a>
         </div>
       </footer>
       
