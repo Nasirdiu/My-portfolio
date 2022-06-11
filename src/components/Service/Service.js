@@ -12,7 +12,7 @@ const Service = () => {
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
      className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20  container mx-auto py-4">
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img
               src={icon}
@@ -26,7 +26,7 @@ const Service = () => {
             
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img
               src={icon1}
@@ -40,7 +40,7 @@ const Service = () => {
             
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img
               src={icon3}

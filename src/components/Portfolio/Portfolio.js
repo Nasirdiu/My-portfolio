@@ -13,16 +13,16 @@ const Portfolio = () => {
       <div data-aos="zoom-in-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 container mx-auto py-4">
+          className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 container mx-auto py-4 ">
         {/* number 1  */}
-        <div  class="card w-96 bg-base-100 shadow-xl">
+        <div  class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img src={img3} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Car-auto-parts website</h2>
 
-            <label for="my-modal-3" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-3" class="btn modal-button  btn-primary hover:bg-accent btn-sm ">
               Details
             </label>
 
@@ -46,25 +46,25 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center   ">
               <div class="card-actions">
-               <a href="https://github.com/Nasirdiu/Assientment-12-client-site" target='blank'> <button class="btn btn-primary  btn-sm">Client</button></a>
+               <a href="https://github.com/Nasirdiu/Assientment-12-client-site" target='blank'> <button class="btn btn-primary  btn-sm hover:bg-accent">Client</button></a>
               </div>
               <div class="card-actions">
-               <a href="https://github.com/Nasirdiu/Assientment--12-server-site" target='blank'> <button class="btn btn-primary  btn-sm m-4">Server</button></a>
+               <a href="https://github.com/Nasirdiu/Assientment--12-server-site" target='blank'> <button class="btn btn-primary  btn-sm m-4 hover:bg-accent">Server</button></a>
               </div>
               <div class="card-actions">
-                <a href="https://car-auto-parts-e0b2d.web.app/" target='blank'><button class="btn btn-primary  btn-sm">Live</button></a>
+                <a href="https://car-auto-parts-e0b2d.web.app/" target='blank'><button class="btn btn-primary  btn-sm hover:bg-accent">Live</button></a>
               </div>
             </div>
           </div>
         </div>
         {/* number 2  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class=" pt-10">
             <img src={img} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Electronics Warehouse website</h2>
-            <label for="my-modal-2" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-2" class="btn modal-button btn-primary hover:bg-accent btn-sm">
               Details
             </label>
 
@@ -88,25 +88,25 @@ const Portfolio = () => {
 
             <div className="flex items-center   ">
               <div class="card-actions">
-               <a href="https://github.com/Nasirdiu/Assientment--11-client-site" target='blank'> <button class="btn btn-primary btn-sm">Client</button></a>
+               <a href="https://github.com/Nasirdiu/Assientment--11-client-site" target='blank'> <button class="btn btn-primary btn-sm hover:bg-accent">Client</button></a>
               </div>
               <div class="card-actions">
-              <a href="https://github.com/Nasirdiu/Assientment--11-server-site" target='blank'> <button class="btn btn-primary btn-sm m-4">Server</button></a> 
+              <a href="https://github.com/Nasirdiu/Assientment--11-server-site" target='blank'> <button class="btn btn-primary btn-sm m-4 hover:bg-accent">Server</button></a> 
               </div>
               <div class="card-actions">
-               <a href="https://electronics-warehouse-56938.web.app/" target='blank'><button class="btn btn-primary btn-sm">Live</button></a> 
+               <a href="https://electronics-warehouse-56938.web.app/" target='blank'><button class="btn btn-primary btn-sm hover:bg-accent">Live</button></a> 
               </div>
             </div>
           </div>
         </div>
         {/* number 3  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img src={img2} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Wedding-venues website</h2>
-            <label for="my-modal-1" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-1" class="btn modal-button btn-primary hover:bg-accent btn-sm">
               Details
             </label>
 
@@ -128,23 +128,23 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center   ">
               <div class="card-actions ">
-                <a href="https://github.com/Nasirdiu/Assientment--3" target='blank'><button class="btn btn-primary btn-sm m-4">GitHub</button></a>
+                <a href="https://github.com/Nasirdiu/Assientment--3" target='blank'><button class="btn btn-primary btn-sm m-4 hover:bg-accent">GitHub</button></a>
               </div>
               
               <div class="card-actions">
-               <a href="https://wedding-venues.netlify.app/" target='blank'> <button class="btn btn-primary btn-sm">Live</button></a>
+               <a href="https://wedding-venues.netlify.app/" target='blank'> <button class="btn btn-primary btn-sm hover:bg-accent">Live</button></a>
               </div>
             </div>
           </div>
         </div>
         {/* number 4  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img src={img1} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">luxury-living website</h2>
-            <label for="my-modal-4" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-4" class="btn modal-button btn-primary hover:bg-accent btn-sm">
               Details
             </label>
 
@@ -167,19 +167,19 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center   ">
               <div class="card-actions">
-               <a href="https://github.com/Nasirdiu/Project-dream-client" target='blank'><button class="btn btn-primary btn-sm">Client</button></a> 
+               <a href="https://github.com/Nasirdiu/Project-dream-client" target='blank'><button class="btn btn-primary btn-sm hover:bg-accent">Client</button></a> 
               </div>
               <div class="card-actions">
                 <button class="btn btn-primary btn-sm m-4">Server</button>
               </div>
               <div class="card-actions">
-                <a href="https://luxury-living-4fa76.web.app/" target='blank'><button class="btn btn-primary btn-sm">Live</button></a>
+                <a href="https://luxury-living-4fa76.web.app/" target='blank'><button class="btn btn-primary btn-sm hover:bg-accent">Live</button></a>
               </div>
             </div>
           </div>
         </div>
         {/* number 5  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img
               src={img4}
@@ -189,7 +189,7 @@ const Portfolio = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Upcoming....</h2>
-            <label for="my-modal-5" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-5" class="btn modal-button btn-primary hover:bg-accent btn-sm">
               Details
             </label>
 
@@ -211,19 +211,19 @@ const Portfolio = () => {
            
             <div className="flex items-center   ">
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Client</button>
+                <button class="btn btn-primary btn-sm hover:bg-accent">Client</button>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm m-4">Server</button>
+                <button class="btn btn-primary btn-sm m-4 hover:bg-accent">Server</button>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Live</button>
+                <button class="btn btn-primary btn-sm hover:bg-accent">Live</button>
               </div>
             </div>
           </div>
         </div>
         {/* number six  */}
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl hover:bg-orange-500">
           <figure class="px-10 pt-10">
             <img
               src={img4}
@@ -233,7 +233,7 @@ const Portfolio = () => {
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Upcoming....</h2>
-            <label for="my-modal-6" class="btn modal-button btn-accent btn-sm">
+            <label for="my-modal-6" class="btn modal-button btn-primary hover:bg-accent btn-sm">
               Details
             </label>
 
@@ -254,13 +254,13 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center   ">
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Client</button>
+                <button class="btn btn-primary btn-sm hover:bg-accent">Client</button>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm m-4">Server</button>
+                <button class="btn btn-primary btn-sm m-4 hover:bg-accent">Server</button>
               </div>
               <div class="card-actions">
-                <button class="btn btn-primary btn-sm">Live</button>
+                <button class="btn btn-primary btn-sm hover:bg-accent">Live</button>
               </div>
             </div>
           </div>

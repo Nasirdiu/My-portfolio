@@ -54,7 +54,7 @@ const Footer = () => {
           <p>Copyright © 2022 - <span className="text-orange-500">All right reserved by Nasir 369</span></p>
         </div>
         <div className="absolute right-0 mt-40"  id="slider">
-        <a href="#slider" className="text-orange-400 "><button className="btn btn-accent btn-sm">Go to Home</button> </a>
+        <a href="#slider" className="text-orange-400 "><button className="btn btn-outline hover:bg-accent btn-sm">Go to Home</button> </a>
         </div>
       </footer>
       

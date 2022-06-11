@@ -38,17 +38,10 @@ const Banner = () => {
           
           <a className='w-10' href="https://www.instagram.com/nasiruddincse/" target='blank'><FaInstagramSquare/> </a>
           
-          <a className='w-10' href="https://twitter.com/nasircse369" target='blank'>< FaTwitter/> </a>
-          
-          
-          
+          <a className='w-10' href="https://twitter.com/nasircse369" target='blank'>< FaTwitter/> </a>  
         </div>
 
-
-
-
-
-          <a href="https://www.linkedin.com/in/nasir369/" target='blank'><button class="btn btn-primary text-white mt-5" id='contact'>Hire Me</button></a>
+          <a href="https://www.linkedin.com/in/nasir369/" target='blank'><button class="btn btn-primary hover:bg-accent  text-white mt-5" id='contact'>Hire Me</button></a>
         </div>
         
         

@@ -34,7 +34,7 @@ const About = () => {
               </p>
               <a href={cv} download>
                 {" "}
-                <button class="btn btn-primary">Download Cv</button>
+                <button class="btn btn-accent btn-outline ">Download Cv</button>
               </a>
             </div>
           </div>
