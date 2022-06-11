@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-scroll/modules';
-
+import TypeAnimation from 'react-type-animation';
 const Navbar = () => {
  
   const menu = (
@@ -54,7 +54,15 @@ const Navbar = () => {
             {menu}
           </ul>
         </div>
-        <h1 className="text-2xl font-bold text-white">Portfo <span className="text-red-500">lio</span></h1>
+        <h1 className="text-2xl font-bold text-white">
+        <TypeAnimation className='animition'
+                  cursor={false}
+                  sequence={['Portfolio', 1000, '']}
+                  wrapper="h2"
+                  repeat={Infinity}
+                />
+        
+        </h1>
       </div>
       <div class="navbar-center hidden lg:flex  text-white">
         <ul class="menu menu-horizontal p-0">{menu}</ul>
