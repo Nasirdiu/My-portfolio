@@ -4,6 +4,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { toast } from "react-toastify";
 import "./Banner.css";
+import cv from "../../images/Md.Nasir Uddin Resume.pdf";
 import {
   FaInstagramSquare,
   FaLinkedin,
@@ -76,12 +77,12 @@ const Banner = () => {
             </a>
           </div>
 
-          <a href="https://www.linkedin.com/in/nasir369/" target="blank">
+          <a href={cv} download>
             <button
               class="btn btn-primary hover:bg-accent  text-white mt-5"
               id="contact"
             >
-              Hire Me
+              Download Cv
             </button>
           </a>
         </div>
