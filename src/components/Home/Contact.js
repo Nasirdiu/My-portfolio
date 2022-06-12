@@ -54,7 +54,7 @@ const Contact = () => {
           />
           <br /> <br />
           <textarea
-            class="textarea textarea-bordered w-96 h-40"
+            class="textarea textarea-bordered w-full max-w-xs h-40"
             placeholder="Your Message"
             required
             name="message"

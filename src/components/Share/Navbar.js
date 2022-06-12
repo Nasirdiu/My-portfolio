@@ -36,8 +36,8 @@ const Navbar = () => {
   );
 
   return (
-    <div class="navbar  mx-auto" id="slider">
-      <div class="navbar-start mx-48 ">
+    <div class="navbar container mx-auto" id="slider">
+      <div class="navbar-start">
         <div class="dropdown ">
           <label tabindex="0" class="btn btn-ghost lg:hidden ">
             <svg
@@ -62,7 +62,7 @@ const Navbar = () => {
             {menu}
           </ul>
         </div>
-        <h1 className="text-2xl font-bold text-white">
+        <h1 className="text-2xl font-bold text-white ml-32">
           <TypeAnimation
             className="animition"
             cursor={false}
@@ -72,7 +72,7 @@ const Navbar = () => {
           />
         </h1>
       </div>
-      <div class="navbar-center hidden lg:flex  text-white">
+      <div class="navbar-center hidden lg:flex  text-white ">
         <ul class="menu menu-horizontal p-0">{menu}</ul>
       </div>
     </div>

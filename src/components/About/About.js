@@ -1,8 +1,8 @@
 import React from "react";
 import nasir from "../../images/nasir3.png";
 import cv from "../../images/Md.Nasir Uddin Resume.pdf";
-import TypeAnimation from 'react-type-animation';
-import './About.css'
+import TypeAnimation from "react-type-animation";
+import "./About.css";
 const About = () => {
   return (
     <div className="mt-40 bg-neutral" id="about">
@@ -17,7 +17,11 @@ const About = () => {
             data-aos-duration="2000"
             class="hero-content flex-col lg:flex-row "
           >
-            <img src={nasir} class="max-w-sm rounded-lg shadow-2xl" alt="" />
+            <img
+              src={nasir}
+              class="w-full max-w-sm rounded-lg shadow-2xl"
+              alt=""
+            />
             <div
               data-aos="zoom-in-up"
               data-aos-easing="ease-out-cubic"
@@ -25,8 +29,9 @@ const About = () => {
               className="ml-40"
             >
               <h1 class="text-2xl font-bold text-orange-500">
-               I'm a{" "}
-                <TypeAnimation className='animition'
+                I'm a{" "}
+                <TypeAnimation
+                  className="animition"
                   cursor={true}
                   sequence={[
                     "Developer",

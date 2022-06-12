@@ -90,6 +90,7 @@ const Banner = () => {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
+        
         options={{
           background: {
             color: {
