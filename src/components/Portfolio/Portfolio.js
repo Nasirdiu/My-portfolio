@@ -176,7 +176,8 @@ const Portfolio = () => {
                 <h3 class="text-lg font-bold">Wedding-venues website</h3>
                 <p class="py-4">
                   wedding-venues website. ● Beautiful and Clean Design Used
-                  Techs: Html Css Bootstrap Netlify
+                  ● Techs: Html Css Bootstrap  ●Hotel booking link.●Footer Play store linkup
+                   ●Discount modal ●Netlify Upload
                 </p>
               </div>
             </div>
