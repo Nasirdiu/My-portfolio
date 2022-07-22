@@ -52,15 +52,14 @@ const About = () => {
               <p class="py-6">
                 I am Web developer . We are interested in learning new features
                 of development. We try to learn new technologies very quickly. i
-                are able to work as a developer of any champ. More than a year
-                of efficient website and application coding using React Js, CSS,
+                am able to work as a developer of any champ. More than a year of
+                efficient website and application coding using React Js, CSS,
                 React Router, Tailwind CSS, Bootstrap, JavaScript, Firebase
                 Authentication, Node JS, Express JS, MongoDB, etc. Education :
-                Bsc In Computer Science Engineer
+                complete Bsc In Computer Science Engineer.
               </p>
-              <a href={cv} download>
-                {" "}
-                <button class="btn btn-accent btn-outline ">Download Cv</button>
+              <a href="https://www.facebook.com/Nasir369" target='blank'>
+                <button class="btn btn-accent btn-outline w-40">About</button>
               </a>
             </div>
           </div>

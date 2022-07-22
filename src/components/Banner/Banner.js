@@ -32,7 +32,7 @@ const Banner = () => {
           <h1 class="text-5xl font-bold banner-me">Nasir Uddin</h1>
           <p class="py-6 text-white">
             Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work.
+            and development, producing the Quality work.
           </p>
 
           <div className="text-white flex">
@@ -91,7 +91,6 @@ const Banner = () => {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-        
         options={{
           background: {
             color: {
