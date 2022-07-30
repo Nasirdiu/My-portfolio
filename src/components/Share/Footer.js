@@ -80,7 +80,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <ScrollToTop smooth color="#6f00ff" />
+          <ScrollToTop smooth color="#6f00ff" className="bg-orange-500 p-2 rounded" />
         </div>
       </footer>
     </div>
