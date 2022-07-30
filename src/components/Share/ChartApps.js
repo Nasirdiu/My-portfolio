@@ -5,7 +5,7 @@ const ChartApps = () => {
     <div>
       <MessengerCustomerChat
         pageId="<101895019292258>"
-        appId="<516521953172970>"
+        appId="<2086600954844655>"
       />
     </div>
   );
