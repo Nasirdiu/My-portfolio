@@ -58,7 +58,7 @@ const About = () => {
                 Authentication, Node JS, Express JS, MongoDB, etc. Education :
                 complete Bsc In Computer Science Engineer.
               </p>
-              <a href="https://www.facebook.com/Nasir369" target='blank'>
+              <a href="https://www.linkedin.com/in/nasir369/" target='blank'>
                 <button class="btn btn-accent btn-outline w-40">About</button>
               </a>
             </div>
