@@ -5,7 +5,7 @@ import Service from "../Service/Service";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "./Contact";
 import Experience from "../Experience/Experience";
-import ChartApps from "../Share/ChartApps";
+
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Service></Service>
       <Portfolio></Portfolio>
       <Contact></Contact>
-      <ChartApps></ChartApps>
+      
     </div>
   );
 };

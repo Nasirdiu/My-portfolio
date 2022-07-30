@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import MessengerCustomerChat from "react-messenger-customer-chat";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -23,6 +23,11 @@ function App() {
       </Routes>
       <Footer></Footer>
       <ToastContainer />
+      <MessengerCustomerChat
+        pageId="101895019292258"
+        appId="2086600954844655"
+        
+      />
     </div>
   );
 }
