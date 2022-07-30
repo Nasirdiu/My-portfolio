@@ -24,8 +24,8 @@ function App() {
       <Footer></Footer>
       <ToastContainer />
       <MessengerCustomerChat
-        pageId="101895019292258"
-        appId="2086600954844655"
+        pageId="108461971957605"
+        appId="1064127487572378"
         
       />
     </div>
